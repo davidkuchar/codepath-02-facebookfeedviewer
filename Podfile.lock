@@ -1,0 +1,13 @@
+PODS:
+  - Bolts (1.1.3)
+  - Facebook-iOS-SDK (3.23.0):
+    - Bolts (~> 1.0)
+
+DEPENDENCIES:
+  - Facebook-iOS-SDK
+
+SPEC CHECKSUMS:
+  Bolts: e431c88fd02115d4a34016c2100bbfa4d2d5b146
+  Facebook-iOS-SDK: fcb0fd5bcdb50f1fe9ce27bf6b8cdf1aa5b2b0ed
+
+COCOAPODS: 0.37.1
