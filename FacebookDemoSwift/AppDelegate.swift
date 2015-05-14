@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
             
             var storyboard = UIStoryboard(name: "Main", bundle: nil)
-            var vc = storyboard.instantiateViewControllerWithIdentifier("MainNavigationController") as UIViewController
+            var vc = storyboard.instantiateViewControllerWithIdentifier("MainNavigationController") as! UIViewController
             self.window?.rootViewController = vc
         }
         

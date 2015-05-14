@@ -14,6 +14,9 @@
 		229EA21C1A8C0F7500567410 /* FacebookDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA21B1A8C0F7500567410 /* FacebookDemoSwiftTests.swift */; };
 		229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2261A8C0FD500567410 /* MainViewController.swift */; };
 		229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2281A8C0FDE00567410 /* LoginViewController.swift */; };
+		55A41A2E1B0443E700DE77C4 /* FaceFeedMixedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A41A2D1B0443E700DE77C4 /* FaceFeedMixedCell.swift */; };
+		55A41A301B0443FF00DE77C4 /* FaceFeedPlainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A41A2F1B0443FF00DE77C4 /* FaceFeedPlainCell.swift */; };
+		5C273A665A278E44EDE67894 /* Pods_FacebookDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E6B709EA4F0F9E879E09E8 /* Pods_FacebookDemoSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B96A2F0A62CD49DC8578F778 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0617C99C97214D66B3FCA0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,9 @@
 		229EA2261A8C0FD500567410 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		229EA2281A8C0FDE00567410 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		229EA22A1A8C101800567410 /* FacebookDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		43E6B709EA4F0F9E879E09E8 /* Pods_FacebookDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A41A2D1B0443E700DE77C4 /* FaceFeedMixedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceFeedMixedCell.swift; sourceTree = "<group>"; };
+		55A41A2F1B0443FF00DE77C4 /* FaceFeedPlainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceFeedPlainCell.swift; sourceTree = "<group>"; };
 		9E0617C99C97214D66B3FCA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE1F610D2902AD8300C0556 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA13850E318BABA9DE9D1E19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96A2F0A62CD49DC8578F778 /* libPods.a in Frameworks */,
+				5C273A665A278E44EDE67894 /* Pods_FacebookDemoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +94,7 @@
 		229EA2021A8C0F7500567410 /* FacebookDemoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				55A41A2C1B0443BC00DE77C4 /* Table Cells */,
 				229EA2251A8C0FC900567410 /* View Controllers */,
 				229EA2051A8C0F7500567410 /* AppDelegate.swift */,
 				229EA2091A8C0F7500567410 /* Main.storyboard */,
@@ -132,6 +140,15 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		55A41A2C1B0443BC00DE77C4 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55A41A2D1B0443E700DE77C4 /* FaceFeedMixedCell.swift */,
+				55A41A2F1B0443FF00DE77C4 /* FaceFeedPlainCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 		6B3D51AC10F3F6AC5712400F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				9E0617C99C97214D66B3FCA0 /* libPods.a */,
+				43E6B709EA4F0F9E879E09E8 /* Pods_FacebookDemoSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A41A2E1B0443E700DE77C4 /* FaceFeedMixedCell.swift in Sources */,
+				55A41A301B0443FF00DE77C4 /* FaceFeedPlainCell.swift in Sources */,
 				229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */,
 				229EA2061A8C0F7500567410 /* AppDelegate.swift in Sources */,
 				229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */,

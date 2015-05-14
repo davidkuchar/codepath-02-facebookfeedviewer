@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.codepath.Feeder</string>
+	<string>com.davidkuchar.codepath_feed</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -32,7 +32,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>779386828776683</string>
+	<string>350175681838744</string>
 	<key>FacebookDisplayName</key>
 	<string>Feeder</string>
 	<key>LSRequiresIPhoneOS</key>
